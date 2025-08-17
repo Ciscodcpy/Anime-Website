@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('path_to_featured_movie_poster.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero .btn {
+  padding: 1rem 2rem;
+  background-color: #ff6347;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+/* Trending Section */
+.trending {
+  padding: 2rem;
+  background-color: #1c1c1c;
+}
+
+.trending h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.movie-carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+}
+
+.movie-carousel img {
+  width: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Genres Navigation */
+.genres {
+  background-color: #333;
+  padding: 1rem;
+}
+
+.genres ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.genres li {
+  margin: 0 1rem;
+}
+
+.genres a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+/* Search Bar */
+.search {
+  padding: 1rem;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+}
+
+.search input {
+  width: 50%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
